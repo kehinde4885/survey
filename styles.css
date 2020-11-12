@@ -1,0 +1,113 @@
+body{
+    background-color: #98c1bc;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 35px;
+}
+.outer-form{
+    border: 2px solid white;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#description{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#survey-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#name-label,#email-label,#number-label{
+    display: inline-block;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+    float:right;
+    width:40%;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.current-role{
+    margin-top: 30px;
+}
+#current-position{
+    text-align: left;
+    float: left;
+    width: 65%;
+    margin-top: 20px;
+}
+#dropdown{
+ padding-right: 20px;
+ width:20%;
+ margin-top: 20px;
+ vertical-align: middle;
+}
+
+.user-rating{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+label{
+    float: left;
+    width:50%;
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+    display: block;
+}
+.radio{
+    float: left;
+    width: 15%;
+
+}
+
+.like-most{
+    margin-top: 30px;
+}
+#likeMost{
+    margin-top:20px;
+}
+.dropdown{
+    margin-top: 30px;
+}
+/* #choices{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.checkbox{
+    float: right;
+    width:70%;
+    white-space: nowrap;
+
+}
+.clearfix{
+    overflow: auto;
+}
+
+textarea{
+    height: 60px;
+    resize: vertical;
+    width:280px;
+}
+
+button:hover{
+    background-color: lightblue;
+}
